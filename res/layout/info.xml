@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootleot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff377ef0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dip"
+                android:text="Dcsms Frame Widget"
+                android:textColor="#ffffffff" />
+
+            <ImageView
+                android:id="@+id/showme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/showpreview" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#ddffffff" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listtema"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bar"
+        android:layout_below="@+id/head" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/dcsmsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/pickicon"
+            android:gravity="left|center_vertical"
+            android:text="@string/ganti_gambar"
+            android:textColor="#ffffffff"
+            android:textSize="10dip" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/leot_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#dd000000"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/btnclose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/close" />
+
+        <ImageView
+            android:id="@+id/iv_preview"
+            android:layout_width="294dip"
+            android:layout_height="146dip"
+            android:layout_centerInParent="true"
+            android:paddingBottom="30dip"
+            android:scaleType="centerInside"
+            android:src="@drawable/defaultimage" />
+
+        <Button
+            android:id="@+id/btnapply"
+            style="@style/dcsmsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:drawableTop="@drawable/apply"
+            android:text="Apply"
+            android:textColor="#ffffffff"
+            android:textSize="10dip" />
+    </RelativeLayout>
+
+</RelativeLayout>

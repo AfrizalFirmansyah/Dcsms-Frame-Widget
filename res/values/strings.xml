@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dcsms Frame Widget</string>
+    <string name="widget_name">dFrame 4x2</string>
+    <string name="info_text">Frame Widget Sederhana\n
+tambahkan dcsms frame widget d homeskrin agan\n
+-Tambahkan widget\n
+-Ganti gambar\n
+-Pilih Frame\n
+-Pencet Tombol Back\n\n
+Versi 1.1\n
+changelog\n
+-menambahkan 2 frame(udah 3 frame skarang :P)\n
+-fix minor bugs\n
+
+thanx to \n
+google\n
+um ncez\n
+um rednax\n
+um machda\n
+um kevin\n
+um ezot\n
+um riris\n
+ilmns familly\n\n
+sincerely, jmkl
+		</string>
+    <string name="ganti_gambar">ganti gambar</string>
+    <string name="todo">TODO</string>
+
+</resources>

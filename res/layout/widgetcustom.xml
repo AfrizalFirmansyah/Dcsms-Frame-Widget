@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Widget"
+    android:layout_width="294dip"
+    android:layout_height="146dip"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="294dip"
+        android:layout_height="146dip"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/defaultimage" />
+
+</RelativeLayout>
